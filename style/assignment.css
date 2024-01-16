@@ -1,3 +1,5 @@
+
+
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Lato', sans-serif;
@@ -146,7 +148,10 @@ nav>ul{
     padding: 30px;
     position: relative;
     bottom: 400px;
-    justify-content: space-between;
+    
+    justify-content: center;
+    gap: 20px;
+    /* justify-content: space-between; */
     align-items: center;
     flex-wrap: wrap;
     
@@ -166,7 +171,8 @@ nav>ul{
     padding: 30px;
     position: relative;
     bottom: 450px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15px;
     align-items: center;
     
 }
@@ -185,7 +191,8 @@ nav>ul{
     padding: 30px;
     position: relative;
     bottom: 450px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15px;
     align-items: center;
     
 }
