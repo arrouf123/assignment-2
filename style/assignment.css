@@ -34,6 +34,7 @@ nav>ul{
     width:100%;
     height: 100%;
     color: azure;
+   
 }
 .banner-head{
     font-size: normal;
@@ -118,6 +119,10 @@ nav>ul{
     }
     
 }
+
+
+    
+
 .container2{
     margin: 30px;
     padding: 30px;
@@ -133,4 +138,97 @@ nav>ul{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.container3{
+    display: flex;
+    gap: x;
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+    bottom: 400px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (max-width: 567px) {
+    .container3{
+        flex-direction: column;
+    }
+    
+}
+.container4{
+    display: flex;
+    
+    gap: x;
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+    bottom: 450px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 567px) {
+    .container4{
+        flex-direction: column;
+    }
+    
+}
+.container5{
+    display: flex;
+    
+    gap: x;
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+    bottom: 450px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 567px) {
+    .container5{
+        flex-direction: column;
+    }
+    
+}
+.container6{
+    display: flex;
+    
+    gap: 5x;
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+    bottom: 450px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 567px) {
+    .container6{
+        flex-direction: column;
+    }
+    
+}
+.container7{
+    display: flex;
+    
+    gap: 5x;
+    margin: 400px;
+    padding: 30px;
+    position: relative;
+    bottom: 900px;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media screen and (max-width: 567px) {
+    .container7{
+        flex-direction: column;
+    }
 }
