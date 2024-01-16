@@ -232,3 +232,131 @@ nav>ul{
         flex-direction: column;
     }
 }
+
+
+
+.container8{
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+    bottom: 1300px;
+}
+.container8 .con-h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container8 .con-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container9 .hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 1300px;
+}
+.container10 {
+    width: 700px;
+    background-color: rgb(227, 213, 213);
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    bottom: 1750px;
+    left: 1000px;
+    display: flex;
+    
+}
+@media screen and (max-width: 567px) {
+    .container10{
+        flex-direction: column;
+    }
+}
+.container11{
+    display: flex;
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+    bottom: 1600px;
+}
+@media screen and (max-width: 567px) {
+    .container11{
+        flex-direction: column;
+    }
+}
+.container12{
+    display: flex;
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+    bottom: 1600px;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 567px) {
+    .container12{
+        flex-direction: column;
+    }
+}
+.container12 .gi{
+    border: 2px solid tomato;
+    margin: 10px;
+    padding: 40px;
+    font-size: 20px;
+
+}
+.container12 .ki{
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: aliceblue;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    position: relative;
+    bottom: 1600px;
+    margin: 30px;
+    padding: 30px;
+    background-color: rgb(235, 241, 241);
+    height: 300px;
+}
+.footer-heading{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.li{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.logo .a{
+    width: 40px;
+}
+.logo .b{
+    width: 40px;
+}
+.logo .c{
+    width: 40px;
+}
+.logo .d{
+    width: 40px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
